@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardiology">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="500dp"
+        android:layout_height="1000dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/img3" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="230dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:text="CARDIOLOGY"
+        android:textAlignment="center"
+        android:textColor="#9C1414"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="359dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="36dp"
+        android:text="A cardiac surgeon is a medical doctor who has advanced education and training in performing surgery on the heart and the major blood vessels around it. They may belong to different specialties or may choose to specialize in certain types of heart procedures, such as procedures done on children.
+"
+        android:textAlignment="viewStart"
+        android:textColor="#050404"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="344dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="68dp"
+        android:text="What is the difference between a heart surgeon and a cardiac surgeon?"
+        android:textAlignment="center"
+        android:textColor="#610D0D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="365dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="40dp"
+        android:text="
+General cardiothoracic surgeons focus on all of the organs of the upper abdomen, including the lungs, esophagus, and heart. Cardiac surgeons work only with the heart. Another name for a cardiac surgeon is a cardiovascular surgeon"
+        android:textColor="#5C4D4D"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+</androidx.constraintlayout.widget.ConstraintLayout>
