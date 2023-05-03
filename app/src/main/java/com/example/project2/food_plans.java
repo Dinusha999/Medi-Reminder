@@ -18,6 +18,7 @@ public class food_plans extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(getApplicationContext(), cardiology.class);
                 startActivity(i);
+                //
             }
         });
     }
